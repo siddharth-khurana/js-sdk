@@ -1,7 +1,7 @@
-import { BN } from "@coral-xyz/anchor";
 import { ICluster } from "@streamflow/common";
 import { PublicKey } from "@solana/web3.js";
-
+import pkg from "@coral-xyz/anchor";
+const { BN } = pkg;
 export const FEE_PRECISION_FACTOR = 10_000;
 export const FEE_PRECISION_FACTOR_BN = new BN(FEE_PRECISION_FACTOR);
 export const DEFAULT_FEE = 19;

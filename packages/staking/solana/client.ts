@@ -33,9 +33,9 @@ import {
   STREAMFLOW_TREASURY_PUBLIC_KEY,
 } from "./constants.js";
 import { FeeManager as FeeManagerProgramType } from "./descriptor/fee_manager.js";
-import FeeManagerIDL from "./descriptor/idl/fee_manager.json";
-import RewardPoolIDL from "./descriptor/idl/reward_pool.json";
-import StakePoolIDL from "./descriptor/idl/stake_pool.json";
+import FeeManagerIDL from "./descriptor/idl/fee_manager.json" assert { type: "json" };
+import RewardPoolIDL from "./descriptor/idl/reward_pool.json" assert { type: "json" };
+import StakePoolIDL from "./descriptor/idl/stake_pool.json" assert { type: "json" };
 import { RewardPool as RewardPoolProgramType } from "./descriptor/reward_pool.js";
 import { StakePool as StakePoolProgramType } from "./descriptor/stake_pool.js";
 import {
